@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #FFFFFF;
+}
+.topblocks{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    gap: 59px;
+}
+.container{
+    width: 1920px;
+    margin: 0 auto;
+}
+.bottomblocks{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+h2{
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.top_para{
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+    color: #666666;
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+.btm_para{
+    font-family: 'Gilroy-Regular';
+    margin-top: 22px;
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+    text-align: center;
+    color: #AAAAAA;
+}
+.content{
+    margin-top: 77.5px;
+}
+h1{
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    text-align: center;
+}
+.main_text{
+    font-family: 'Gilroy-Regular';
+    margin-top: 19px;
+    margin-bottom: 55px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #666666;
+}
+img{
+    margin-bottom: 25px;
+}
+
+button{
+    font-family: 'Gilroy-Bold';
+    margin-top: 39px;
+    background: #F25822;
+    padding: 15px 46px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 150%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    color: #FFFFFF;
+}
+.btmbl2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.block2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(/fonts/Gilroy-Regular.woff2);
+}
+.btm_head{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.btm_img{
+    display: flex;
+    justify-content: center;
+}
+.top_link{
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    /* identical to box height, or 16px */
+    color: #000000;
+}
